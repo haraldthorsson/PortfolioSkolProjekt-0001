@@ -1,0 +1,17 @@
+body,
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  margin: 0px;
+  font-family: /*"Overpass",*/ sans-serif;
+  color: rgb(169, 169, 169);
+}
+
+* {
+  box-sizing: border-box;
+}
