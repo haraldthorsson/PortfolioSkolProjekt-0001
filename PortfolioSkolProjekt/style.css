@@ -133,3 +133,31 @@ img {
   padding: 50%;
   align-items: center;
 }
+
+.about {
+  background-color: #0f1011;
+  text-align: center;
+  align-items: center;
+  margin: 100px;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.about h1 {
+  color: #3ca578;
+  font-size: 45px;
+}
+
+/*.about p {
+  margin-top: 35px;
+  font-size: 20px;
+}*/
+
+.aboutdescriptionbig {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.aboutdescription {
+  font-size: 30px;
+}
