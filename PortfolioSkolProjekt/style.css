@@ -164,3 +164,16 @@ img {
   font-size: 30px;
   margin-top: 5px;
 }
+
+.workdiv {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workbox {
+  background-color: #0b0c0c;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 20px;
+}
