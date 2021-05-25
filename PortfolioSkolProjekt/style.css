@@ -74,8 +74,10 @@ body {
 .featured {
   background-color: #0f1011;
   align-items: center;
+  text-align: center;
   margin: 100px;
-  border-radius: 5px;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   padding: 2%;
 }
 /*.boxes {
@@ -101,8 +103,8 @@ header {
 }
 
 .box {
-  background-color: #0b0c0c;
-  border-radius: 5px;
+  background-color: #17191b;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   padding: 25px;
   margin: 20px;
   display: block;
@@ -110,6 +112,7 @@ header {
   margin: auto;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .center h1 {
@@ -149,7 +152,8 @@ img {
   margin-left: 20%;
   /* border-radius: 5px; */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
-  padding: 2%;
+  padding: 2% 5%;
+  max-width: 50%;
 }
 
 .about h1 {
@@ -172,6 +176,15 @@ img {
   margin-top: 5px;
 }
 
+.aboutcontact {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.iframe {
+  width: 300px;
+}
+
 .workdiv {
   margin: 25px;
   padding: 50px;
@@ -180,18 +193,27 @@ img {
 }
 
 .workbox {
+  align-content: center;
+  text-align: center;
+
   background-color: #0b0c0c;
 
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 
   padding: 25px;
   margin: 20px;
+
+  max-width: 30%;
 }
 
 .worka {
   display: inline;
   margin: 0px;
   max-width: 64px;
+}
+
+.workimg {
+  max-width: 500px;
 }
 
 .worka img {
@@ -201,11 +223,18 @@ img {
   max-width: 64px;
 }
 
+.workdiv h1 {
+  font-size: 40px;
+  color: #3ca578;
+  margin-bottom: 10px;
+}
+
 .home {
   /* background-color: #0f1011; */
   align-items: center;
   text-align: center;
   margin: 100px;
+  margin-bottom: -100px;
   border-radius: 5px;
   padding: 1%;
 }
@@ -215,6 +244,9 @@ img {
   font-size: 60px;
 }
 
+.home h2 {
+  font-size: 40px;
+}
 .contacts {
   align-items: center;
   text-align: center;
