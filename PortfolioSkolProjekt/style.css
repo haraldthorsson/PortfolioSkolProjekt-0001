@@ -153,7 +153,6 @@ img {
   /* border-radius: 5px; */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   padding: 2% 5%;
-  max-width: 50%;
 }
 
 .about h1 {
@@ -179,10 +178,6 @@ img {
 .aboutcontact {
   font-size: 30px;
   margin-top: 25px;
-}
-
-.iframe {
-  width: 300px;
 }
 
 .workdiv {
